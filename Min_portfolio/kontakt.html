@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kontakt</title>
+    <link rel="stylesheet" href="/Min_portfolio/css/stylesheet.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/kff5ype.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/nng7pyi.css" />
+  </head>
+  <body>
+    <!-----------------------------------------------------------------
+  
+                            Kontakt side
+  
+-------------------------------------------------------------------->
+
+    <!---------------- Container til baggrundsfarve ------------------>
+    <div class="light_green_container">
+      <!---------------- Border der indrammer indhold -------------->
+      <div class="brown_box">
+        <!-------------- Header til håndholdt enhed ---------------->
+        <header class="contact_header">
+          <a href="../index.html" class="logo">
+            <img src="../Min_portfolio/img/logo_kontakt.png" alt="" />
+          </a>
+          <h2>Kontakt</h2>
+        </header>
+
+        <!----------- Header med naviation til desktop ------------->
+
+        <header class="contact_nav">
+          <figure class="logo">
+            <a href="../index.html">
+              <img src="../Min_portfolio/img/logo_kontakt.png" alt=""
+            /></a>
+          </figure>
+          <!------------------ Navigation i header -------------------->
+          <nav>
+            <a href="../Min_portfolio/ommig.html">Om mig</a>
+            <a href="../Min_portfolio/flow.html">Projekter</a>
+            <a href="../Min_portfolio/kontakt.html">Kontakt</a>
+          </nav>
+        </header>
+
+        <!------------------- Kontakt formular -------------------->
+
+        <article class="contact-box">
+          <!-- Fornavnnavn boks -->
+          <label for="fname">Fornavn</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Fornavn"
+          />
+          <!-- Efternavn boks -->
+          <label for="lname">Efternavn</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Efternavn"
+          />
+          <!-- Email boks -->
+          <label for="email">E-mail</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="E-mail adresse"
+          />
+          <!-- Kort besked -->
+          <label for="subject">Besked</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Beskrivelse.."
+            style="height: 180px"
+          ></textarea>
+          <!-- Send knap -->
+          <a href="mailto:astamig@hotmail.com">
+            <input type="submit" value="Send" />
+          </a>
+        </article>
+
+        <!-------------- Navigation hånholdt enhed ----------------->
+        <nav class="nav_mobile4">
+          <a href="../Min_portfolio/flow.html">Projekter</a>
+          <a href="../Min_portfolio/ommig.html">Om mig</a>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

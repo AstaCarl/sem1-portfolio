@@ -1,0 +1,2528 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: new-order, sans-serif;
+    box-sizing: border-box;
+}
+
+/****----------------------------------------------
+
+    Styling på de ting som går igen på siderne
+
+-----------------------------------------------****/
+
+/****--------------
+    Font size
+---------------****/
+
+body p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+body h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+body h1{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+body h3{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body a{
+    font-size: 14px;
+}
+
+body ul{
+font-size: 14px;
+line-height: 24px;
+}
+
+/****-----------------------------------------
+
+Baggrund på siden, skifter farve på hver side.
+
+------------------------------------------****/
+
+/****---------------------
+Grøn baggrund på forside
+----------------------****/
+.green_container{
+    background-color: #717747;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/****---------------------
+Hvid baggrund på flowsider
+----------------------****/
+.ivory_container{
+    background-color: #eff1e4;
+    padding: 15px 15px 100px 15px;
+    display: flex;
+    justify-content: center;
+    }
+
+
+/****---------------------
+Lys grøn baggrund på om mig
+----------------------****/
+.pale_container{
+    background-color: #d7dabe;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/****----------------------------
+Lys grøn baggrund på kontakt side
+-----------------------------****/
+.light_green_container{
+    background-color: #AEB57D;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+ }
+
+
+ /****------------------------------------------------------
+
+Border container, skifter farve på hver side og Font farver
+ 
+--------------------------------------------------------****/
+
+/****---------------------------------
+Hvid border på forside
+---------------------------------****/
+.ivory_box{
+    border: solid 1px #eff1e4;
+    color: #eff1e4;
+    width: 1150px;
+    height: min-content;
+}
+
+/****-----------------
+Grøn border på flowside
+------------------****/
+.green_box{
+    border: solid 1px #717747;
+    color: #717747;
+    width: 1150px;
+    height: min-content;
+}
+
+/****-----------------
+Grøn border på om mig
+------------------****/
+.rifle_box{
+    border: solid 1px #3e4125;
+    color: #3e4125;
+    width: 1150px;
+    height: min-content;
+}
+
+/****----------------------
+Mørk grøn border på kontakt side
+-----------------------****/
+.brown_box{
+    border: 1px solid #3e4125;
+    color: #3e4125;
+    width: 1150px;
+    height: min-content;
+ }
+
+
+
+/****----------------------------------------------
+
+                    Logo styling 
+
+-----------------------------------------------****/
+   
+/****--------------------------------------------
+ Logo styling, logo skal ændre farve på hver side 
+ --------------------------------------------****/
+
+ .logo{
+    height: 100%;
+}
+
+.logo img{
+    height: 100%;
+    padding: 5px;
+} 
+
+
+
+/****----------------------------------------------
+
+    Header styling til mobil for alle sider
+
+-----------------------------------------------****/
+
+/****-------------------
+Header til mobil forside 
+--------------------****/
+.index_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #eff1e4;
+    height: 50px;
+    margin: 15px;
+}
+
+/****--------------
+Header på flow side 
+---------------****/
+.flow_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #717747;
+    height: 50px;
+    margin: 15px;
+}
+
+/****----------------------- 
+Header flow side overskrift 
+-----------------------****/
+.flow_header h2{
+    text-align: center;
+    color: #717747;
+    }
+
+/****----------------
+Header på om mig side 
+-----------------****/
+.om_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #3e4125;
+    height: 50px;
+    margin: 15px 15px 30px 15px;
+}
+
+/****--------------
+Overskrift i header 
+---------------****/
+.om_header h2{
+    text-align: center;
+    color: #3e4125;
+    }
+
+
+ /****--------------
+Header på kontakt side 
+---------------****/
+.contact_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #3e4125;
+    height: 50px;
+    margin: 15px 15px 30px 15px;
+}
+
+
+/****--------------
+Overskrift i header 
+---------------****/
+.contact_header h2{
+text-align: center;
+color: #3e4125;
+}
+
+
+/****----------------------------------------------
+
+      Nav styling til mobil for alle sider
+
+-----------------------------------------------****/
+
+/****-----------
+Nav til forside 
+-----------****/
+.nav_mobile{
+    background-color: #717747cc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #EFF1E4;
+    margin: 10px;
+    position: sticky;
+    bottom: 0;
+    height: 50px;
+}
+
+.nav_mobile a{
+    text-decoration: none;
+    color:#EFF1E4;
+}
+
+/****-------------
+Nav til flowside
+--------------****/
+.nav_mobile2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #717747;
+    margin: 15px;
+    position: sticky;
+    bottom: 0;
+    background-color: #eff1e4b8;
+    height: 50px;
+}
+
+.nav_mobile2 a{
+    text-decoration: none;
+    color:#717747;
+}
+
+/****--------------
+Nav til om mig side
+---------------****/
+.nav_mobile3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #3e4125;
+    margin: 15px;
+    position: sticky;
+    bottom: 0;
+    background-color: #d7dabeb2;
+    height: 50px;
+}
+
+.nav_mobile3 a{
+    text-decoration: none;
+    color:#3e4125;
+}
+
+ /****---------------
+Nav til kontakts side
+----------------****/
+.nav_mobile4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #3e4125;
+    margin: 15px;
+    position: sticky;
+    bottom: 0;
+    background-color: #aeb57da6;
+    height: 50px;
+}
+
+.nav_mobile4 a{
+    text-decoration: none;
+    color:#3e4125;
+}
+
+
+
+/****------------------------------------------------------------------
+
+                   Forside til håndholdt enhed styling
+
+-------------------------------------------------------------------****/
+.introdesktop p{
+    display: none;
+}
+
+.index_nav{
+    display: none;
+}
+
+.cta{
+    display: none;
+}
+
+
+/****-------------------
+Overskrift og underrubik 
+--------------------****/
+.introdesktop{
+    padding: 15px;
+}
+
+/****-----------------
+Forside billede af mig 
+------------------****/
+.forsidebillede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forsidebillede img{
+    width: 100%;
+    opacity: 90%;
+    padding-top: 10px;
+}
+
+/****-------------
+Lille tekst om mig  
+---------------***/
+.intro_mobile{
+    margin: 20px 20px 20px 20px;
+}
+
+
+/****--------------------------------------
+
+        Flow side håndholdt styling 
+        
+ --------------------------------------****/
+
+ /****--------------------
+   Fjerne desktop indhold 
+-----------------------****/
+.flow_nav{
+    display: none;
+ }
+
+ .preview_flow1, .preview_flow2, .preview_flow3, .preview_flow4, .preview_flow5{
+    display: none;
+ }
+
+ .klikher{
+    display: none;
+ }
+
+
+/****------------------
+   Flow box styling 
+-------------------****/
+.flow1, .flow2, .flow3, .flow4, .eksamen{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100px;
+    border-top: 1px solid #717747;
+    border-left: 1px solid #717747;
+    border-right:1px solid #717747;
+}
+
+.flow1 .overskrift1, .flow2 .overskrift2, .flow3 .overskrift3, .flow4 .overskrift4, .eksamen .overskrift5{
+    padding: 10px;
+}
+
+.flow1 .pil, .flow2 .pil, .flow3 .pil, .flow4 .pil, .eksamen .pil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20%;
+    border-left: solid 1px #717747;
+}
+ 
+.flow1 .pil img, .flow2 .pil img, .flow3 .pil img, .flow4 .pil img, .eksamen .pil img{
+    width: 30px;
+}
+
+.eksamen{
+    border-bottom: 1px solid #717747;
+}
+
+/****------------------
+   Link styling
+-------------------****/
+.flowkasse a{
+    text-decoration: none;
+    color: #717747;
+}
+
+
+
+/***----------------------------------
+
+        Flow 1 side håndholdt 
+        
+ ----------------------------------***/
+
+/****----------------------------------
+    Photoshop projekt tekst og billede
+-----------------------------------****/
+ .projekt1{
+    border-top: solid 1px #717747;
+    border-bottom: solid 1px #717747;
+    padding: 30px 15px;
+ }
+
+.projekt1 h1{
+    padding-bottom:10px;
+}
+
+ .beskrivelse p{
+    padding-bottom: 10px;
+    color: #717747;
+ }
+
+ .beskrivelse h2{
+    padding-bottom: 10px;
+    color: #717747;
+ }
+
+ .beskrivelse ul{
+    padding-bottom: 10px;
+ }
+
+ .projekt1 ul{
+    padding-left: 13px;
+ }
+
+.projekt1 img{
+    width: 60%;
+    padding-top: 10px;
+}
+
+.result h2{
+    padding-bottom: 10px;
+}
+
+/****-----------------------------
+    Figma projekt tekst og iframe
+------------------------------****/
+
+.projekt2 iframe{
+    border: none;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 300px;
+}
+
+.projekt2{
+    padding: 30px 15px;
+}
+
+
+/****----------------
+   Lært i flow 1 
+------------------****/
+
+.learnings{
+    color: #717747;
+    padding: 15px;
+    border-bottom: 1px solid #717747;
+    border-top: 1px solid #717747;
+
+}
+
+.learnings h2{
+    margin-bottom: 10px;
+}
+
+/****----------------
+        Flow 2 
+------------------****/
+
+/****--------------------------------------------
+    Landing page og billboard, tekst og billeder
+---------------------------------------------****/
+.projekt3{
+    padding: 30px 15px;
+    border-top: solid 1px #717747;
+}
+
+.projekt3 h1{
+    padding-bottom:10px;
+}
+
+
+.projekt3 ul{
+    margin-left: 13px;
+}
+
+.projekt3 iframe{
+    border: none;
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.projekt3 video{
+    width: 100%;
+    margin-top: 15px;
+}
+
+/****-------------------------------
+    Lp cover billeder og overskrift 
+--------------------------------****/
+.coveroverskrift h2{
+    padding-left: 15px;
+}
+
+.cover img{
+    padding: 15px 15px 0px 15px;
+    width: 100%;
+}
+
+.cover{
+    padding-bottom: 30px;
+
+}
+
+/****----------------
+        Flow 3 
+------------------****/
+
+/****----------------
+    Tekst og iframe
+------------------****/
+.projekt4{
+    padding: 30px 15px;
+    border-top: solid 1px #717747;
+}
+
+.projekt4 h1{
+    padding-bottom:10px;
+}
+
+.projekt4 ul{
+    margin-left: 13px;
+}
+
+.mockup{
+    padding-top: 30px;
+
+}
+
+.mockup iframe{
+    padding-top: 10px;
+    border: none;
+}
+
+/****------------------------
+        Link til hjemmesiden
+-------------------------****/
+.hjemmeside{
+    padding-top: 10px;
+}
+
+.hjemmeside a{ 
+    color: #717747;
+}
+
+/****----------------
+        Flow 4 
+------------------****/
+
+/****--------------------------
+    Links til videoer og tekst
+---------------------------****/
+.projekt6{
+    padding: 30px 15px 15px;
+    border-bottom: 1px solid #717747;
+    border-top: 1px solid #717747;
+}
+
+.projekt6 h1{
+    padding-bottom:10px;
+}
+
+.youtube{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.youtube a{
+    color: #717747;
+    margin-top: 10px;
+}
+
+/****-------------------------------
+    Tekst til landingpage og iframe
+--------------------------------****/
+.projekt7{
+    padding: 15px;
+}
+
+.projekt7 p{
+    padding: 15px;
+}
+
+.projekt7 h2{
+    margin-top: 10px;
+}
+
+.projekt7 iframe{
+    border: none;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.projekt7 h2{
+    padding-left: 15px;
+}
+
+/****----------------
+        Eksamen
+------------------****/
+
+
+
+/****-------------------------
+Oprids af eksamensbeskrivelsen
+--------------------------****/
+.projektbeskrivelse{
+    padding: 15px;
+    border-bottom: #717747 1px solid;
+    border-top: #717747 solid 1px;
+}
+
+.projektbeskrivelse h1, .projektbeskrivelse h2 {
+    padding-bottom: 10px;
+}
+
+/****----------------------------
+Min research, moodbords og sitemap
+-----------------------------****/
+.research{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.research h2, .research h1{
+    padding-bottom: 10px;
+}
+
+.research iframe{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #717747;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sitemap{
+    padding: 30px 15px 15px 15px;
+    border-bottom: #717747 1px solid;
+}
+
+.sitemap h2{
+    padding-bottom: 10px;
+}
+
+.sitemap img{
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #717747;
+}
+
+
+/****-------------------------
+Mine wireframes og mockups
+--------------------------****/
+.wireframes{
+    padding: 30px 15px 15px 15px;
+    border-bottom: #717747 1px solid;
+}
+
+.wireframes h2{
+    padding-bottom: 10px;
+}
+
+.wireframes iframe{
+    border: 1px solid #717747;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mockupeksamen{
+padding: 30px 15px 15px 15px;
+border-bottom: 1px solid #717747;
+}
+
+.mockupeksamen h2{
+    padding-bottom: 10px;
+}
+
+.mockupeksamen iframe{
+    border: 1px solid #717747;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/****-----------------
+Design principper
+-------------------****/
+
+.globale{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.globale h1, .globale h2{
+    padding-bottom: 10px;
+}
+
+.crap{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.crap h2{
+    padding-bottom: 10px;
+}
+
+.farver{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.farver img{
+    width: 100%;
+    border: 1px solid #717747;
+}
+
+.farver h2{
+    padding-bottom: 10px;
+}
+
+.styleguide{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.styleguide h2{
+    padding-bottom: 10px;
+}
+
+.guide{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.guide img{
+    margin-top:10px;
+    width: 49%;
+}
+
+
+/****------------
+    Kodning
+-------------****/
+
+.kodning{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.kodning h1{
+    padding-bottom: 10px;
+}
+
+.media{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.media h2{
+    padding-bottom: 10px;
+}
+
+.media img{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #717747;
+}
+
+.navigation{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.navigation h2{
+    padding-bottom: 10px;
+}
+
+.nav_style{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav_style img{
+    width: 48%;
+    height: 100%;
+    border: 1px solid #717747;
+}
+
+.nav_style .stretch{
+    height: 100px;
+}
+
+.hover{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.hover h2{
+    padding-bottom: 10px;
+}
+
+.hover img{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #717747;
+}
+
+.hover_style{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover_style img{
+    width: 48%;
+    border: 1px solid #717747;
+}
+
+.embed{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.embed h2{
+    padding-bottom: 10px;
+}
+
+.embed img{
+    width: 100%;
+    border: 1px solid #717747;
+}
+
+.film{
+    padding: 30px 15px 15px 15px;
+    border-bottom: #717747 solid 1px;
+}
+
+.film h2{
+    padding-bottom: 10px;
+}
+
+.film img{
+    width: 100%;
+    border: 1px solid #717747;
+}
+
+.kontakt{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.kontakt h2{
+    padding-bottom: 10px;
+}
+
+.kontakt_style{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.kontakt_style img{
+    width: 48%;
+    height: 100%;
+    border: 1px solid #717747;
+}
+
+.font{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.font h2{
+    padding-bottom: 10px;
+}
+
+.font img{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #717747;
+}
+
+
+/****--------------------------------------
+Mit video projekt beskrivelser og billeder
+--------------------------------------****/
+.videoprojekt{
+    padding: 30px 15px 15px 15px;
+    border-bottom: #717747 1px solid;
+}
+
+.videoprojekt h1{
+    padding-bottom: 10px;
+}
+
+.preproduction{
+    padding: 15px;
+    border-bottom: #717747 1px solid;
+}
+
+.preproduction h2{
+    padding-bottom: 10px;
+}
+
+.storyboard{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.storyboard h2{
+    padding-bottom: 10px;
+}
+
+.storyboard img{
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #717747;
+}
+
+.videoscript{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.videoscript h2{
+    padding-bottom: 10px;
+}
+
+.scripts{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.scripts img{
+    width: 49%;
+    border: 1px solid #717747;
+}
+
+.production{
+    padding: 30px 15px 15px 15px;
+    border-bottom: #717747 1px solid;
+}
+
+.production h2{
+    padding-bottom: 10px;
+}
+
+.postproduction{
+    padding: 30px 15px 15px 15px;
+    border-bottom: 1px solid #717747;
+}
+
+.postproduction h2{
+    padding-bottom: 10px;
+}
+
+
+/****-------------------------
+Knap til forrige flow
+--------------------------****/
+.next{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.next a{
+    color: #717747;
+}
+
+
+/***----------------------------------
+
+          Om Mig side håndholdt 
+        
+ ----------------------------------***/
+
+ .om_nav{
+    display: none;
+ }
+
+
+ .infodesktop{
+    display: none;
+ }
+
+
+.infotekst h1, .infotekst h2{
+    display: none;
+}
+
+/****-------------
+   Video om mig 
+--------------****/
+.video{ 
+    width: 100%;
+    padding-top: 15px;
+}
+
+.video video{
+    width: 100%;
+    background-color: black;
+}
+
+/****--------------------
+   Links til brugt musik
+---------------------****/
+.credit{
+padding: 15px;
+font-size: 14px;
+}
+.credit a{
+    color: #3e4125;
+}
+
+.alarm{
+    padding-bottom:10px;
+}
+
+/****-------------
+   Tekst om mig 
+--------------****/
+.titlemobile{
+    border-bottom: solid 1px #3e4125;
+}
+
+.titlemobile h1, .titlemobile h2{
+    margin: 15px;
+}
+
+.infotekst{
+    border-top: #3e4125 solid 1px;
+    margin-top: 15px;
+}
+
+.kompetencer, .generelt, .hvorfor{
+    border-bottom: solid 1px #3e4125;
+    padding: 15px;
+}
+
+
+
+/***----------------------------------
+
+          Kontakt side håndholdt 
+        
+ ----------------------------------***/
+    
+ .contact_nav{
+    display: none;
+ }
+
+/****--------------
+Kontakt formular 
+---------------****/
+.contact-box{
+    background-color: #AEB57D;
+    padding: 20px;
+    border: #3e4125 solid 1px;
+    margin: 15px;
+    color: #3e4125;
+  }
+
+/****----------------
+Felterne med tekst i
+-----------------****/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #AEB57D;
+    border: 1px solid #3e4125; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+  
+/****---------
+Send knap styling 
+----------****/
+  input[type=submit] {
+    color: #3e4125;
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: #AEB57D;
+    border: #3e4125 solid 1px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.312);
+  }
+
+
+/***-------------------------------------------------------------
+
+                    Media query Desktop styling
+
+ -------------------------------------------------------------***/ 
+
+ @media screen and (min-width: 767px) {
+
+
+ /***----------------------------------
+
+    Styling der går igen på siderne 
+
+ ----------------------------------***/
+
+/****---------------------
+       Header med nav
+----------------------****/
+
+/****------------ 
+    Forside 
+------------****/
+.index_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #EFF1E4;
+    height: 60px;
+    text-align: center;
+    margin: 15px;
+}
+
+.index_nav a{
+    text-align: center;
+    margin: 10px;
+    color: #EFF1E4;
+    text-decoration: none;
+}
+
+.index_nav nav{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+}
+
+.index_nav a:hover{
+    opacity: 70%;
+    -webkit-transition: all .4s ease;
+}
+
+    
+/****----------------
+      Flow side 
+ ---------------****/
+
+ .flow_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #717747;
+    height: 60px;
+    text-align: center;
+    margin: 15px;
+}
+
+.flow_nav a{
+    text-align: center;
+    margin: 10px;
+    color: #717747;
+    text-decoration: none;
+}
+
+.flow_nav nav{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.flow_nav a:hover{
+    opacity: 70%;
+    -webkit-transition: all .2s ease;
+}
+
+
+
+ /****-------------------
+        Om mig side 
+ --------------------****/
+ .nav_mobile3{
+    display: none;
+ }
+
+ .om_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #3e4125;
+    height: 60px;
+    text-align: center;
+    margin: 15px;
+}
+
+.om_nav a{
+    text-align: center;
+    margin: 10px;
+    color: #3e4125;
+    text-decoration: none;
+}
+
+.om_nav nav{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.om_nav a:hover{
+    opacity: 70%;
+    -webkit-transition: all .2s ease;
+}
+
+
+ /****------------------
+       Kontakt side
+ -------------------****/
+
+.contact_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #3e4125;
+    height: 60px;
+    text-align: center;
+    margin: 15px;
+ }
+
+ .contact_nav a{
+    text-align: center;
+    margin: 10px;
+    color: #3e4125;
+    text-decoration: none;
+ }
+
+ .contact_nav nav{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+ }
+
+
+.contact_nav a:hover{
+    opacity: 70%;
+    -webkit-transition: all .2s ease;
+}
+
+
+ /****--------------------------
+       Baggrund på siderne
+ ---------------------------****/
+ /****----------------
+        Forside
+ -----------------****/
+
+ .green_container{
+    padding: 50px 50px 100px 50px;
+    height: 100vh;
+}
+
+ /****------------------
+        Flow side
+ -------------------****/
+.ivory_container{
+    padding: 50px 50px 250px 50px;
+}
+
+ /****------------------
+       om mig side
+ -------------------****/
+.pale_container{
+    padding: 50px 50px 50px 50px;
+    height: 100vh;
+}
+
+ /****------------------
+       kontakt side
+ -------------------****/
+ .light_green_container{
+    padding: 50px 50px 200px 50px;
+    height: min-content;
+}
+
+
+/***----------------------------------
+
+     Desktop forside styling 
+
+ ----------------------------------***/
+/* Fjerner mobil indhold */
+    .index_header{
+        display: none;
+    }
+
+    .nav_mobile{
+        display: none;
+    }
+
+    .intro_mobile{
+        display: none;
+    }
+
+    .introdesktop p{
+        display: block;
+    }
+
+
+/****---------------
+Indhold til forsiden  
+----------------****/
+    .indhold{
+        display: flex;
+        border-top: solid 1px #EFF1E4;
+    }
+
+    .indhold .tekst h1, h2{
+        margin: 0px;
+    }
+
+/****---------------
+    Tekst om mig 
+----------------****/
+    .indhold .introdesktop{
+        padding: 30px;
+        min-height: 70%;
+        width: 100%;
+        border-bottom: solid 1px #EFF1E4;
+    }
+
+    .indhold .introdesktop p{
+        width: 100%;
+    }
+
+/****---------------
+   Forside billede  
+----------------****/
+    .forsidebillede{
+        width: 100%;
+        order: -1;
+        border-right: solid 1px #EFF1E4;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .forsidebillede img{
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .tekst{
+        width: 70%;
+    }
+
+/****---------------
+Call to action knap 
+----------------****/
+    .cta{
+        min-height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cta a{
+        border: 1px solid #eff1e4;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.238);
+        text-decoration: none;
+        color: #eff1e4;
+        padding: 15px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+/****--------------------
+Hover effekt til knappen
+---------------------****/
+    .cta :hover{
+        background-color: #eff1ea4e;
+        box-shadow: none;
+    }
+
+    .tekst h2{
+        margin-top: 10px;
+    }
+
+    .tekst p{
+        margin-top: 30px;
+    }
+
+
+/***----------------------------------
+
+     Desktop flow side styling 
+
+ ----------------------------------***/
+
+
+/****--------------------
+   Fjerne mobil indhold
+---------------------****/
+.nav_mobile2{
+    display: none;
+}
+
+.flowkasse .pil{
+    display: none;
+}
+
+.flow_header{
+    display: none;
+}
+
+.flowkasse{
+    width: 30%;
+}
+
+
+/****------------------------
+Flow kasser styling 
+ ------------------------****/
+    
+    .flow1 a, .flow2 a, .flow3 a, .flow4 a{
+        text-decoration: none;
+        color: #717747;
+    }
+
+    .flow1, .flow2, .flow3, .flow4, .eksamen{
+        display: block;
+        width: 100%;
+        margin: 0;
+        border-left: none;
+        border-top: none;
+        border-bottom: solid 1px #717747;
+        height:120px;
+    }
+    
+
+    .flow1 .overskrift1, .flow2 .overskrift2, .flow3 .overskrift3, .flow4 .overskrift4, .eksamen .overskrift5{
+        padding-left: 15px;
+    }
+
+    .overskrift1, .overskrift2, .overskrift3, .overskrift4, .overskrift5{
+        height: 100px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+  .eksamen{
+        border-bottom: none;
+    }
+
+    .preview_flex{
+        border-top: solid 1px #717747;
+    }
+
+/****----------------------------------------------------------------
+ Flow 1 preview styling, sørger for at previewet er placeret korrekt
+ ----------------------------------------------------------------****/
+
+.preview_flow1{
+    position: relative;
+    width: 200%;
+    left: 115%;
+    bottom: 50%;
+    display: none;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.238);
+    border-radius: 5px;
+}
+
+.preview_flow1 .photoshop{
+    width: 40%;
+    margin: 30px;
+}
+
+.preview_flow1 .photoshop img{
+    width: 95%;
+    opacity: 70%;
+}
+
+.preview_flow1 .flow1_tekst{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+
+ /****------------------------
+ Hover effect til preview flow1
+ ------------------------****/
+
+ .flow1:hover .preview_flow1{
+    display: flex;
+    }
+    
+    .flow1 a:hover{
+        color: #474b2c;
+    }
+    
+    .flow1:hover{
+        background-color: #BCBD8B;
+    }
+    
+    .flow1:hover .klikher{
+        display: block;
+        }
+
+/****------------------------
+ Klik her hover styling
+ ------------------------****/
+    .flow1 .klikher, .flow2 .klikher, .flow3 .klikher, .flow4 .klikher{
+        text-decoration: underline;
+        display: none;
+    }
+/****------------------------
+ Flow 2 preview styling
+ ------------------------****/
+.preview_flow2{
+    position: relative;
+    width: 200%;
+    left: 115%;
+    bottom: 150.5%;
+    display: none;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.238);
+    border-radius: 5px;
+}
+
+.preview_flow2 .flow2_tekst{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+.preview_flow2 .lpcover{
+    width: 50%;
+    margin: 30px;
+}
+
+.preview_flow2 .lpcover img{
+    width: 100%;
+    opacity: 90%;
+}
+
+ /****------------------------
+ Hover effect til preview flow2
+ ------------------------****/
+ .flow2:hover .klikher{
+    display: block;
+    }
+    
+    .flow2:hover .preview_flow2{
+        display: flex;
+        }
+        
+        .flow2 a:hover{
+            color: #474b2c;
+        }
+        
+        .flow2:hover{
+            background-color: #BCBD8B;
+        }
+
+/****------------------------
+ Flow 3 preview styling
+ ------------------------****/
+.preview_flow3{
+    position: relative;
+    width: 200%;
+    left: 115%;
+    bottom: 251%;
+    display: none;
+    padding: 15px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.238);
+    border-radius: 5px;
+}
+
+.preview_flow3 .flow3_tekst{
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-left: -15px;
+}
+
+.preview_flow3 .hjemmeside{
+    width: 65%;
+    margin: 30px;
+}
+
+.preview_flow3 .hjemmeside img{
+    width: 100%;
+    opacity: 70%;
+}
+
+     /****------------------------
+ Hover effect til preview flow3
+ ------------------------****/
+.flow3:hover .klikher{
+    display: block;
+    }
+    
+    .flow3:hover .preview_flow3{
+        display: flex;
+        }
+        
+        .flow3 a:hover{
+            color: #474b2c;
+        }
+        
+        .flow3:hover{
+            background-color: #BCBD8B;
+        }
+
+    /****------------------------
+ Flow 4 preview styling
+ ------------------------****/
+ .preview_flow4{
+    position: relative;
+    width: 200%;
+    left: 115%;
+    bottom: 352%;
+    display: none;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.238);
+    border-radius: 5px;
+}
+
+.preview_flow4 .flow4_tekst{
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+    margin-left: -15px;
+}
+
+.preview_flow4 .some{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    margin: 30px;
+}
+
+.preview_flow4 .some img{
+    width: 100%;
+    opacity: 70%;
+}
+
+     /****------------------------
+ Hover effect til preview flow4
+ ------------------------****/
+.flow4:hover .klikher{
+    display: block;
+    }
+    
+    .flow4:hover .preview_flow4{
+        display: flex;
+        }
+        
+        .flow4 a:hover{
+            color: #474b2c;
+        }
+        
+        .flow4:hover{
+            background-color: #BCBD8B;
+        }
+
+
+/****------------------------
+ Eksamen preview styling
+ ------------------------****/
+ .preview_flow5{
+    position: relative;
+    width: 200%;
+    left: 115%;
+    bottom: 449.5%;
+    display: none;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.238);
+    border-radius: 5px;
+}
+
+.preview_flow5 .flow5_tekst{
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-left: -15px;
+}
+
+.preview_flow5 .portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 30px;
+}
+
+.preview_flow5 .portfolio img{
+    width: 100%;
+    opacity: 70%;
+}
+
+ /****------------------------
+ Hover effect til preview flow4
+ ------------------------****/
+.eksamen:hover .klikher{
+    display: block;
+    text-decoration: underline;
+    }
+    
+    .eksamen:hover .preview_flow5{
+        display: flex;
+        }
+        
+        .eksamen a:hover{
+            color: #474b2c;
+        }
+        
+        .eksamen:hover{
+            background-color: #BCBD8B;
+        }
+
+
+
+    
+/***----------------------------------
+
+     Desktop enkelte flow sider
+
+ ----------------------------------***/
+
+
+/****------------------------
+    Flow 1 dekstop side
+ ------------------------****/
+
+ /****--------------------------
+    Photoshop teskt og billede
+ --------------------------****/
+ .projekt1{
+    display: flex;
+    margin: 0px 15px 0px 15px;
+    padding: 0;
+    border: 1px solid #717747;
+    border-bottom: none;
+ }
+
+ .projekt1 h1{
+    padding-bottom: 10px;
+ }
+
+ .beskrivelse{
+    width: 60%;
+    padding: 30px;
+    border-right: 1px solid #717747;
+ }
+
+ .result{
+    width: 40%;
+    padding: 30px;
+ }
+.result img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+/****-----------------------------
+    Figma projekt tekst og iframe
+ -----------------------------****/
+.projekt2{
+    display: flex;
+    margin: 0px 15px 0px 15px;
+    border: #717747 1px solid;
+    padding: 0;
+}
+
+.projekt2 .beskrivelse{
+    width: 60%;
+    padding: 30px;
+    border-right: solid 1px #717747;
+}
+
+.projekt2 iframe{
+    padding: 30px;
+    width: 40%;
+    height: 400px;
+}
+
+/****------------------
+    Lært i flow 1
+ ------------------****/
+.learnings{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    padding:30px;
+}
+
+.next a:hover{
+    color: #474b2c;
+ }
+
+ /****------------------------
+    Flow 2 dekstop side
+ ------------------------****/
+
+ /****------------------------------
+        Landingpage og billboard
+--------------------------------****/
+ .projekt3{
+    display: flex;
+    margin: 0px 15px 0px 15px;
+    padding: 0;
+    justify-content: space-between;
+    border: 1px solid #717747;
+ }
+ .projekt3 h1{
+    padding-bottom: 10px;
+ }
+
+ .projekt3 .beskrivelse{
+    padding: 30px;
+    width: 60%;
+ }
+
+ .product{
+    padding: 30px;
+    width: 40%;
+ }
+
+ .projekt3 iframe{
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+ }
+
+ .projekt3 video{
+    width: 100%;
+ }
+
+ /****---------------------------------
+        LP cover billeder og overskrift
+------------------------------------****/
+
+ .coveroverskrift{
+    border: 1px solid #717747;
+    margin: 0px 15px 0px 15px;
+    border-bottom: none;
+    border-top: none;
+ }
+ 
+ .coveroverskrift h2{
+    padding-top: 30px;
+    margin-left: 10%;
+ }
+
+ .cover{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+
+ .cover img{
+    width: 40%;
+ }
+
+
+
+  /****------------------------
+    Flow 3 dekstop side
+ ------------------------****/
+
+ /****----------------
+    Tekst og iframe
+------------------****/
+ .projekt4{
+    display: flex;
+    padding: 0;
+    border: 1px solid #717747;
+    margin: 0px 15px 0px 15px;
+ }
+
+ .projekt4 h1{
+    padding-bottom: 10px;
+ }
+
+ .projekt4 .beskrivelse{
+    border-right: none;
+    width: 60%;
+ }
+
+ .mockup{
+    width: 40.1%;
+    padding: 30px;
+    border-left: solid 1px #717747;
+ }
+
+ .mockup h2{
+    padding-bottom: 10px;
+ }
+
+ .hjemmeside a:hover{
+    color: #3e4125;
+ }
+
+
+  /****------------------------
+    Flow 4 dekstop side
+ ------------------------****/
+
+ /****------------------------------------
+        Links til youtube og tekst dertil
+--------------------------------------****/
+ .projekt6{
+    display: flex;
+    border: 1px solid #717747;
+    padding: 0;
+    margin: 0px 15px;
+ }
+
+ .projekt6 h1, .projekt6 h2{
+    padding-bottom: 10px;
+ }
+
+ .youtube{
+    padding: 30px;
+    margin: 0;
+    width: 40%;
+ }
+
+ .youtube h2{
+    padding-bottom: 10px;
+ }
+
+ .result2 h2{
+    padding-bottom: 10px;
+ }
+
+ /****---------------------------
+    Landingpage tekst og iframe
+-------------------------------****/
+ .projekt7{
+    display: flex;
+    border: 1px solid #717747;
+    border-top: none;
+    padding: 0;
+    margin: 0px 15px;
+ }
+
+ .projekt7 p{
+    padding: 0;
+ }
+
+ .result2{
+    padding: 30px;
+    width: 40%;
+ }
+
+ .result2 h2{
+    margin: 0;
+ }
+
+ /***----------------------------------
+
+    Eksamens side styling 
+
+ ----------------------------------***/
+  /****------------------------
+ Projekt beskrivelse
+ ------------------------****/
+
+ .projektbeskrivelse{
+    border: 1px solid #717747;
+    margin: 0px 15px 0px 15px;
+    border-bottom: none;
+    padding:30px;
+ }
+
+ .box{
+    width: 60%;
+ }
+ 
+
+
+  /****------------------------
+ Moodboard og research
+ ------------------------****/
+ .research{
+    border: 1px solid #717747;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+ }
+
+ .flexbox{
+    width: 60%;
+    padding-right: 30px;
+ }
+
+ .content{
+    display: flex;
+    align-items: center;
+    width: 40%;
+ }
+
+ .content iframe{
+    width: 100%;
+    height: 300px;
+ }
+
+/****------------------------
+        Site maps
+ ------------------------****/
+
+ .sitemap{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+ }
+
+ .sitemap img{
+    width: 40%;
+ }
+
+/****------------------------
+        Wireframes
+ ------------------------****/
+.wireframes{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+/****------------------------
+        Mockups
+ ------------------------****/
+.mockupeksamen{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+/****------------------------
+       Design beskrivelse
+ ------------------------****/
+
+
+ .globale, .crap{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    padding: 30px;
+ }
+
+ .farver{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+ }
+
+ .farver img{
+    width: 40%;
+    border: 1px solid #717747;
+ }
+
+ /****------------------------
+       Style guide
+ ------------------------****/
+ .styleguide{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+ }
+ 
+ .styleguide .size{
+     padding-left:15px;
+ }
+ 
+ .guide img{
+     width:40%;
+ }
+
+
+/****------------------------
+        Kodning
+ ------------------------****/
+
+ .kodning{
+    border: 1px solid #717747;
+    border-bottom: none;
+    border-top: none;
+    margin: 0px 15px;
+    padding:30px;
+ }
+
+ /****------------------------
+        media query
+ ------------------------****/
+
+ .media{
+    border: 1px solid #717747;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+ }
+
+ .media img{
+    width: 40%;
+ }
+
+ /****------------------------
+        Navigation
+ ------------------------****/
+
+.navigation{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+.leftbox{
+    width: 60%;
+    padding-right: 30px;
+}
+
+.nav_style{
+    width: 40%;
+}
+
+.nav_style img{
+    width: 49%;
+}
+
+ /****------------------------
+        Hover kodning
+ ------------------------****/
+
+.hover{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+.hover3{
+    width: 40%;
+}
+
+.hover3 img{
+    width: 100%;
+}
+.hover_style img{
+    width: 49%;
+}
+
+ /****------------------------
+        Figma embed
+ ------------------------****/
+
+.embed{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+.embed img{
+    width: 40%;
+}
+
+ /****------------------------
+    Video implementering
+ ------------------------****/
+
+.film{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+.video_style{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.film img{
+    width: 100%;
+}
+
+ /****------------------------
+        Kontakt formular
+ ------------------------****/
+
+.kontakt{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+.kontakt_style{
+    width: 40%;
+}
+
+.kontakt_style img{
+    width: 49%;
+}
+
+ /****------------------------
+       Font
+ ------------------------****/
+
+.font{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    display: flex;
+    padding: 30px;
+}
+
+.font_style{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.font img{
+    width: 100%;
+}
+
+ /****------------------------
+        Videoprojekt
+ ------------------------****/
+
+ .videoprojekt{
+    border: 1px solid #717747;
+    border-top: none;
+    border-bottom: none;
+    margin: 0px 15px;
+    padding:30px;
+ }
+ 
+ 
+
+ .preproduction{
+    border: 1px solid #717747;
+    margin: 0px 15px;
+    padding: 30px;
+ }
+
+ .size{
+    width: 57%;
+ }
+
+  /****------------------------
+      Story boards
+ ------------------------****/
+
+ .storyboard{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    padding: 30px;
+ }
+
+ .flex{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ }
+
+ .flex img{
+    width: 40%;
+ }
+
+   /****------------------------
+      Video scripts
+ ------------------------****/
+
+ .videoscript{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    padding: 30px;
+ }
+
+ /****------------------------
+Postproduktion og produktion
+ ------------------------****/
+
+ .postproduction, .production{
+    border: 1px solid #717747;
+    border-top: none;
+    margin: 0px 15px;
+    padding: 30px;
+ }
+
+
+/***----------------------------------
+
+     Desktop om mig side styling 
+
+ ----------------------------------***/
+ .titlemobile{
+    display: none;
+ }
+
+ .infodesktop{
+    display: block;
+ }
+
+ .om_header{
+    display: none;
+ }
+
+  /****------------------------
+ Info om mig style til desktop 
+ ------------------------****/
+.infotekst{
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.infotekst h2{
+    display: block;
+    padding-bottom: 30px;
+    padding-left: 30px;
+ }
+
+
+.kompetencer, .generelt{
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-top: #3e4125 solid 1px;
+    padding: 15px;
+}
+
+.kompetencer h2, .generelt h2{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+ .infotekst h1{
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 30px;
+ }
+
+
+
+.infotekst .generelt, .infotekst .kompetencer{
+    padding: 30px;
+}
+
+
+
+ /****------------------------
+ Video styling til desktop 
+ ------------------------****/
+
+.container{
+    display: flex;
+    border-top: solid 1px #3e4125;
+}
+
+.video{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    border-right: #3e4125 solid 1px;
+    padding: 30px 30px 0px 30px;
+}
+
+.video video{
+    max-height: 400px;
+    border: 1px solid #3e4125;
+
+}
+
+ /****------------------------
+    Links til brugt musik
+ ------------------------****/
+.credit{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.credit a{
+    color: #3e4125;
+    line-height: 24px;
+}
+
+
+/***----------------------------------
+
+     Desktop Kontakt side styling 
+
+ ----------------------------------***/
+.contact_header{
+    display: none;
+}
+
+.nav_mobile4{
+    display: none;
+}
+
+ /****------------------------
+ Kontakt fomular til desktop 
+ ------------------------****/
+ .contact-box{
+    width: 70%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+
+  /****--------------------------
+    Hover effekt til send knap 
+ ----------------------------****/
+ input[type=submit]:hover {
+    background-color: #3e41257e;
+  }
+
+
+
+
+}
